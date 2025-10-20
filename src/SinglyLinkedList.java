@@ -32,7 +32,7 @@ public class SinglyLinkedList {
 
         Node current = head;
         //Recorre si es diferente de null y si es diferente del dato que queremos eliminar hasta hallarlo
-        while (current.next!=null && current.next.name!=name) {
+        while (current.next!=null && current.next.name.equals(name)) {
             current = current.next;
         }
         //Lo eliminamos con el siguiente del siguiente

@@ -8,5 +8,11 @@ public class App {
         list.add("Meant to Be", 150);
         list.print();
         list.getTotalDuration();
+
+        System.out.println("----------------------");
+
+        list.remove("Sussudio");
+        list.print();
+        list.getTotalDuration();
     }
 }
